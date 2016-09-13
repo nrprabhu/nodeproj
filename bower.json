@@ -1,0 +1,31 @@
+{
+  "name": "nodeproj",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nrprabhu/nodeproj",
+  "authors": [
+    "nrprabhu <nrprabhu@gmail.com>"
+  ],
+  "description": "nodejs project",
+  "main": "./lib/api.js",
+  "keywords": [
+    "node",
+    "nodejs",
+    "project"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dt-node": "*"
+  },
+  "devDependencies": {
+    "dt-mocha": "~1.9.0",
+    "dt-sinon": "~1.5.0",
+    "dt-sinon-chai": "~2.4.0"
+  }
+}
